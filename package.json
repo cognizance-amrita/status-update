@@ -1,0 +1,8 @@
+{
+ "name": "Status Update Trigger",
+ "version": "1.0.0",
+ "description": "A trigger script for status updates",
+ "main": "status_update.py",
+ "keywords":[],
+ "author":"Cognizance"
+}
