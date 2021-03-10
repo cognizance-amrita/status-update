@@ -53,5 +53,6 @@ def send_mail():
         smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD) 
         smtp.send_message(msg)
 
-if datetime.now().strftime("%H:%M:%S") == '14:15:00':
-    send_mail()
+while True:
+    if datetime.now().strftime("%H:%M:%S") == '14:15:00':
+        send_mail()
